@@ -24,6 +24,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Aptima',
+        primaryColor: Colors.blue,
+
        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
         // body : ScrollImage()
         // body : ImageBai7()
         // body : MyProfile()
-        body :  Store_phone()
+         body :  Store_phone()
         ),
     );
   }
